@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce app</title>
+    <link href="./public/bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./public/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="./public/fontawesome/css/all.min.css" rel="stylesheet">
+    <script src="./public/fontawesome/js/all.min.js"></script>
+    <link rel="stylesheet" href="public/styles/index.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg" style="background-color: white; position: fixed; width: 100%; z-index: 1;">
+        <div class="container">
+            <a class="navbar-brand">AMB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cart.html">Cart</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login.html">Sign out</a>
+                    </li>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- content start -->
+    <section class="container py-5">
+        <div class="row py-5">
+            <div class="col-12 col-md-6 mb-4 mb-md-2"> <img src="public/images/shoe-4.jpg"
+                    class="card-img-top rounded-4" alt="..." style="object-fit: cover; max-height: 60vh;">
+            </div>
+            <div class="col-12 col-md-6">
+                <p>Product name</p>
+                <h3 class="mb-3">Product price</h3>
+                <select name="size" class="form-control mb-4" id="size" style="max-width: 300px;">
+                    <option value="sm">Small</option>
+                    <option value="md">Medium</option>
+                    <option value="lg">Large</option>
+                    <option value="xl">XL</option>
+                    <option value="2xl">2XL</option>
+                </select>
+                <div class="d-flex gap-3">
+                    <input type="number" class="form-control py-0 " value="1" style="width: 50px; height: 40px;" />
+                    <button class="btn btn-success mb-4">Add to cart</button>
+                </div>
+                <p>Product Details</p>
+                <p>Deserunt qui occaecat Lorem amet et pariatur officia. Dolore ex pariatur incididunt consequat in
+                    consectetur et nostrud occaecat exercitation labore laboris est velit. Sint labore sit enim magna.
+                    Anim laborum cupidatat et quis enim velit ullamco reprehenderit laboris minim aute. Anim et id aute
+                    duis veniam enim amet. Non fugiat mollit cillum eu cupidatat magna sit consectetur reprehenderit
+                    elit veniam deserunt. Do aliquip culpa occaecat occaecat ad dolor aute reprehenderit nostrud ea
+                    cupidatat dolor sit.
+
+                    Consectetur sunt culpa ex labore dolor officia ut Lorem dolor reprehenderit. Qui voluptate esse
+                    velit magna fugiat occaecat in eiusmod. Elit eiusmod enim exercitation incididunt irure dolore
+                    cillum adipisicing elit. Ut minim qui consectetur et.
+
+                    Amet dolore dolor deserunt consequat. Commodo aliqua quis Lorem est sunt amet. Nulla aliqua dolor
+                    incididunt magna veniam.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- content end -->
+
+    <!-- footer section -->
+    <section class="footer" style="background-color:white ;">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-5 mb-3 mb-md-0">
+                    <h4>AMB</h4>
+                    <h5>Contact</h5>
+                    <ul>
+                        <li>Address: Lorem ipsum dolor...</li>
+                        <li>Phone: +233 123 4561</li>
+                        <li>Phone: +233 123 4561</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-3 mb-md-0">
+                    <h5>About</h5>
+                    <ul>
+                        <li>About us</li>
+                        <li>Delivery Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mb-3 mb-md-0">
+                    <h5>My Account</h5>
+                    <ul class="ml-0 pl-0">
+                        <li>Sign In</li>
+                        <li>View Cart</li>
+                        <li>Track my order</li>
+                        <li>My wishlist</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+
+</body>
+
+</html>
