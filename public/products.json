@@ -1,0 +1,9 @@
+[
+
+    { "id": 1, "name": "Bags", "price": "$10.00", "img": "bag" },
+    { "id": 2, "name": "Shoe", "price": "$30.00", "img": "shoe" },
+    { "id": 3, "name": "Shirt", "price": "$20.00", "img": "shirt" },
+    { "id": 4, "name": "Phone", "price": "$300.00", "img": "phone" },
+    { "id": 5, "name": "Car", "price": "$10,000.00", "img": "car" },
+
+]
